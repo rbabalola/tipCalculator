@@ -1,0 +1,136 @@
+body{
+  text-align: center;
+  align-items: center;
+  background-color: #c5e4e7;
+  margin:auto;
+  font-family:'Space Mono', monospace;
+}
+#attribution,a{
+  padding: 100px 0;
+  color: #00494d;
+
+}
+a:hover{
+  color:#26c0ab;
+}
+#title{
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+.amount{
+  color:#26c0ab;
+  font-size: 3rem;
+  font-weight: 900;
+
+  text-align: right;
+
+}
+
+.amount-total{
+  color:#fff;
+  margin-bottom: 0;
+
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.bill-input{
+  background-image: url(images/icon-dollar.svg);
+  background-repeat:no-repeat;
+  background-position: left; padding-left:15px; padding-right: 15px;
+}
+.big-button {
+  border: none;
+  border-radius: 8px;
+  color: #00494d;
+  font-size: 15px;
+  background: #26c0ab;
+  width: 90%;
+  text-decoration: none;
+  padding: 10px;
+
+  text-align: center;
+}
+
+.big-button:hover {
+  background: #c5e4e7;
+  text-decoration: none;
+}
+.big-button-div{
+  margin-top: 80px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.big-input{
+  width: 90%;
+  height: 40px;
+  border-radius: 5px;
+
+  background-color: #f4fafa;
+  border: none;
+}
+
+.select-people{
+  margin-top: 35px;
+}
+.people-input{
+  background-image: url(images/icon-person.svg);
+  background-repeat:no-repeat;
+  background-position: left; padding-left:15px; padding-right: 15px;
+}
+.person{
+  font-size: 1rem;
+  color: 	#5e7a7d;
+  padding-left: 30px;
+}
+.mid-background{
+background-color: white;
+padding: 40px;
+
+}
+
+.left-box,.right-box {
+  text-align: left;
+margin:auto;
+display: inline-block;
+
+}
+::placeholder{
+  text-align: right;
+}
+
+
+.right-box{
+  background-color: #00494d;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+.looks,.custom{
+  margin: 5px 3px;
+  padding: 6px;
+  width: 95px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #00494d;
+  color: #fff;
+}
+  .looks:hover {
+    background: #c5e4e7;
+    text-decoration: none;
+
+}
+.custom{
+border-width: 0.2px;
+  background-color: #f4fafa;
+}
+.rounded-edge{
+  border-radius: 25px;
+
+}
+.row{
+  margin: auto;
+  width: 60%;
+}
+ .tip-div{
+  display: inline-block;
+ }
